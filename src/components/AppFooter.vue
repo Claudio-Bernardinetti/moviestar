@@ -8,7 +8,7 @@ export default {
 
 <template>
   <footer id="app_footer">
-      <p>ciao</p>
+      
   </footer>
   
 </template>

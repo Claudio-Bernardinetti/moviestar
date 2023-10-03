@@ -87,7 +87,14 @@ export default {
     <!-- End Navbar -->
      </div>
      <div class="jumbotron">
+        <div class="text">
+            <h6>Welcome To Our Movie Site</h6>
+            <h2>OUR SPECIAL <span>MOVIES</span></h2>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit cupiditate sequi voluptate aliquam dolor, placeat architecto accusamus, minima maiores quidem expedita. Impedit natus aperiam asperiores dolores at eaque.</p>
+            <button>Read More</button>
+        </div>
      </div>
+     <!-- End Jumbotron -->
   </header>
   
 </template>
@@ -116,6 +123,27 @@ export default {
         .basket{
             span{
                 background-color: $Cinema_primary;
+            }
+        }
+    }
+    .jumbotron{
+        background-image: url(../../src/assets/img/slider-1536x520.jpg);
+        width: 100%;
+        height: 520px;
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $Cinema_light;
+            padding-top: 6rem;
+            padding-left: 40%;
+            padding-right: 30%;
+            span {
+                color: $Cinema_primary;
+            }
+            button {
+                background-color: $Cinema_primary;
+                border-radius: 15px;
             }
         }
     }
