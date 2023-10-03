@@ -1,12 +1,26 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue'
+export default {
+  name: 'App',
+  data() {
+    return {
+
+    }
+  },
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter
+  },
+}
 </script>
 
 <template>
-  <div>
-    
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+   <AppHeader />
+   <AppMain />
+   <AppFooter />
 </template>
 
 <style scoped>
