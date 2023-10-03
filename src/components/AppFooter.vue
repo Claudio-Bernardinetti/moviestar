@@ -7,9 +7,9 @@ export default {
 </script>
 
 <template>
-  <header id="app_footer">
+  <footer id="app_footer">
       <p>ciao</p>
-  </header>
+  </footer>
   
 </template>
 

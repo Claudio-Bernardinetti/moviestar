@@ -7,16 +7,16 @@ export default {
 </script>
 
 <template>
-  <header id="app_main">
-     <p>cioa</p>
-  </header>
+  <div id="app_main">
+     
+  </div>
   
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
  p {
-    color: $Cinema_light_dark;
+    color: $Cinema_primary;
 }
 
 </style>
