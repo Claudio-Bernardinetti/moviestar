@@ -29,12 +29,63 @@ export default {
           <img src="../../src/assets/img/cropped-logo.png" alt="">
         </div>
         <div class="d-flex my-3 py-3">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-success" type="submit">Search</button>
+          <input class="search form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">Search</button>
         </div>
      </div>
      <!-- End Search -->
-     <div class="nav_bar"></div>
+     <div class="nav_bar">
+        <nav class="navbar navbar-expand-lg text-color">
+          <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                    
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Home</a>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Celebrity</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                   Movie
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Page</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+              <div class="basket">
+                    <span class="position-absolute top-10 start-100 translate-middle badge rounded-pill">
+                    0
+                    </span>
+                 <img src="../../src/assets/img/image (basket).svg"  alt="">
+              </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+     </div>
      <div class="jumbotron">
      </div>
   </header>
@@ -51,6 +102,22 @@ export default {
 
     strong {
         color: $Cinema_primary;
+    }
+
+    .btn {
+        background-color: $Cinema_primary;
+    }
+    a {
+        color: $Cinema_light;
+    }
+    .nav_bar {
+        padding-left: 16%;
+        padding-right: 18%;
+        .basket{
+            span{
+                background-color: $Cinema_primary;
+            }
+        }
     }
 }
 </style>
