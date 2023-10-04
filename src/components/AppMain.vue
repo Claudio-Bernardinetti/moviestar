@@ -182,13 +182,92 @@ export default {
             <div>Top Rating</div>
             <div>TV Series</div>
         </div>
-        <div class="img">
-            <div class="hurry"></div>
-            <div class="animate"></div>
-            <div class="blue"></div>
-            <div class="halla"></div>
-            <div class="quisque"></div>
-            <div class="new"></div>
+        <!-- End Navbar -->
+        <div class="img d-flex flex-wrap justify-content-center">
+            <div class="hurry d-flex flex-column justify-content-between">
+                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div>
+                    <div class="p-2">
+                        <h5>Hurry Animate Blue Strack New Movie</h5>
+                        <h6>Category: Top Rating</h6>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="bg-black p-2 rounded-end-pill">Details</div>
+                        <div class="bg-black p-2 rounded-start-pill">381 Views</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Hurri pic -->
+            <div class="animate d-flex flex-column justify-content-between">
+                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div>
+                    <div class="p-2">
+                        <h5>Animate Blue Strack New Movie</h5>
+                        <h6>Category: Latest Movie</h6>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="bg-black p-2 rounded-end-pill">Details</div>
+                        <div class="bg-black p-2 rounded-start-pill">343 Views</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Animat pic -->
+            <div class="blue d-flex flex-column justify-content-between">
+                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div>
+                    <div class="p-2">
+                        <h5>Blue Strack New Animate Movie</h5>
+                        <h6>Category: Coming Soon</h6>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="bg-black p-2 rounded-end-pill">Details</div>
+                        <div class="bg-black p-2 rounded-start-pill">420 Views</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Blue pic -->
+            <div class="nulla d-flex flex-column justify-content-between">
+                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div>
+                    <div class="p-2">
+                        <h5>Nulla Strack New Animate Movie</h5>
+                        <h6>Category: TV Series</h6>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="bg-black p-2 rounded-end-pill">Details</div>
+                        <div class="bg-black p-2 rounded-start-pill">324 Views</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Nulla pic -->
+            <div class="quisque d-flex flex-column justify-content-between">
+                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 1/10</div>
+                <div>
+                    <div class="p-2">
+                        <h5>Quisque In Strack New Movie</h5>
+                        <h6>Category: Top Rating</h6>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="bg-black p-2 rounded-end-pill">Details</div>
+                        <div class="bg-black p-2 rounded-start-pill">339 Views</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Quisque pic -->
+            <div class="new d-flex flex-column justify-content-between">
+                <div class="new_star d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div class="new_text">
+                    <div class="p-2">
+                        <h5>New Movie Quisque in Strack</h5>
+                        <h6>Category: Latest Movie</h6>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="bg-black p-2 rounded-end-pill">Details</div>
+                        <div class="bg-black p-2 rounded-start-pill">503 Views</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End New pic -->
         </div>
      </div>
      <!-- End New Movie Navbar -->
@@ -314,11 +393,38 @@ export default {
             }
         }
         .img {
-            .hurry {
-                background-image: url(../../src/assets/img/coming-bg.jpg);
-                width: 200px;
+            margin-left: 13%;
+            margin-right: 13%;
+            
+            .hurry, .animate, .blue, .nulla, .quisque, .new {
+                width: 220px;
                 height: 300px;
+                margin: 2rem;
+                color: $Cinema_light;
+                
+                span{
+                    color: $Cinema_primary;
+                }
+                
             }
+            .hurry {
+                background-image: url(../../src/assets/img/1-234x300.jpg);
+            }
+            .animate {
+                background-image: url(../../src/assets/img/5-229x300.jpg);
+            }
+            .blue {
+                background-image: url(../../src/assets/img/3-229x300.jpg);
+            }
+            .nulla {
+                background-image: url(../../src/assets/img/4-229x300.jpg);
+            }
+            .quisque {
+                background-image: url(../../src/assets/img/3-222x300.jpg);
+            } 
+            .new {
+                background-image: url(../../src/assets/img/2-216x300.jpg);
+            }  
         }
     }
  }
