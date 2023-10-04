@@ -255,8 +255,8 @@ export default {
             </div>
             <!-- End Quisque pic -->
             <div class="new d-flex flex-column justify-content-between">
-                <div class="new_star d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
-                <div class="new_text">
+                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div>
                     <div class="p-2">
                         <h5>New Movie Quisque in Strack</h5>
                         <h6>Category: Latest Movie</h6>
@@ -271,11 +271,84 @@ export default {
         </div>
      </div>
      <!-- End New Movie Navbar -->
-     <div class="latest_news d-flex border-bottom border-black">
-        <div class="line"></div>
-        <div class="text px-2">
-            <h4>Latest News</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, hic doloremque!</p>
+     <div class="latest_news_container">
+        <div class="latest_news d-flex border-bottom border-black">
+            <div class="line"></div>
+            <div class="text px-2">
+                <h4>Latest News</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, hic doloremque!</p>
+            </div>
+        </div>
+        <!-- Start images -->
+        <div class="last_news_img_container d-flex">
+            <div class="actor d-flex flex-column justify-content-between">
+                <div class="d-flex justify-content-end p-2"></div>
+                <div>
+                    <div class="p-2">
+                        <h5>Actor The Concept Movie High Concept Theory See The Post</h5>
+                    </div>
+                    <div class="d-flex justify-content-between py-3">
+                        <div class="bg-black p-2 rounded-end-pill">Details</div>
+                        <div class=" p-2 rounded-start-pill">moviestar 0 Comments Share</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Actor img -->
+            <div class="four_squares d-flex flex-wrap">
+                <div class="consequat d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-end p-2"></div>
+                    <div>
+                        <div class="p-2">
+                            <h5>Consequat Nam Lectus Nibh Aucibus It Has Turpis</h5>
+                        </div>
+                        <div class="d-flex justify-content-between py-3">
+                            <div class="bg-black p-2 rounded-end-pill">Details</div>
+                            <div class=" p-2 rounded-start-pill">Share</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Consequat img -->
+                
+                <div class="nam d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-end p-2"></div>
+                    <div>
+                        <div class="p-2">
+                            <h5>Nam Lectus Nibh Consequat Aucibus Turpis It Has</h5>
+                        </div>
+                        <div class="d-flex justify-content-between py-3">
+                            <div class="bg-black p-2 rounded-end-pill">Details</div>
+                            <div class=" p-2 rounded-start-pill">Share</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Nam img -->
+                <div class="bring d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-end p-2"></div>
+                    <div>
+                        <div class="p-2">
+                            <h5>Bring Me The Head Of Alfredo Garcia Best Movie In</h5>
+                        </div>
+                        <div class="d-flex justify-content-between py-3">
+                            <div class="bg-black p-2 rounded-end-pill">Details</div>
+                            <div class=" p-2 rounded-start-pill">Share</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Bring img -->
+                <div class="pump d-flex flex-column justify-content-between">
+                    <div class="d-flex justify-content-end p-2"></div>
+                    <div>
+                        <div class="p-2">
+                            <h5>Pump Action Interaction English Action Movie (2020)</h5>
+                        </div>
+                        <div class="d-flex justify-content-between py-3">
+                            <div class="bg-black p-2 rounded-end-pill">Details</div>
+                            <div class=" p-2 rounded-start-pill">Share</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Pump img -->
+            </div>
         </div>
      </div>
      <!-- End Latest News -->
@@ -397,34 +470,91 @@ export default {
             margin-right: 13%;
             
             .hurry, .animate, .blue, .nulla, .quisque, .new {
-                width: 220px;
-                height: 300px;
+                width: 300px;
+                height: 400px;
                 margin: 2rem;
                 color: $Cinema_light;
-                
+                background-size: contain;
                 span{
                     color: $Cinema_primary;
                 }
                 
+                
             }
             .hurry {
-                background-image: url(../../src/assets/img/1-234x300.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/1-234x300.jpg);
+                background-size: cover;
             }
             .animate {
-                background-image: url(../../src/assets/img/5-229x300.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/5-229x300.jpg);
+                background-size: cover;
             }
             .blue {
-                background-image: url(../../src/assets/img/3-229x300.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/3-229x300.jpg);
+                background-size: cover;
             }
             .nulla {
-                background-image: url(../../src/assets/img/4-229x300.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/4-229x300.jpg);
+                background-size: cover;
             }
             .quisque {
-                background-image: url(../../src/assets/img/3-222x300.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/3-222x300.jpg);
+                background-size: cover;
             } 
             .new {
-                background-image: url(../../src/assets/img/2-216x300.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/2-216x300.jpg);
+                background-size: cover;
             }  
+        }
+    }
+    .latest_news_container {
+        .four_squares {
+            width: 600px;
+        }
+        
+        .actor {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog-570x570.jpg);
+            width: 500px;
+            height: 500px;
+            color: $Cinema_light;
+            margin-left: 16%;
+            
+        }
+        .consequat {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog2-150x150.jpg);
+            background-size: cover;
+            width: 240px;
+            height: 240px;
+            color: $Cinema_light;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            
+        }
+        .nam {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog3-150x150.jpg);
+            background-size: cover;
+            width: 240px;
+            height: 240px;
+            color: $Cinema_light;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            
+        }
+        .bring {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog4-150x150.jpg);
+            background-size: cover;
+            width: 240px;
+            height: 240px;
+            color: $Cinema_light;
+            margin-left: 1rem;
+        }
+        .pump {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog5-150x150.jpg);
+            background-size: cover;
+            width: 240px;
+            height: 240px;
+            color: $Cinema_light;
+            margin-left: 1rem;
         }
     }
  }
