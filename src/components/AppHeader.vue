@@ -8,7 +8,7 @@ export default {
 
 <template>
   <header id="app_header">
-     <div class="top d-flex justify-content-around py-2">
+     <div class="top d-flex justify-content-around  py-2">
         <div>
             <img class="p-1" src="../../src/assets/img/image (email).svg"  alt="">
             <span>Superhit Top Movie <strong class="px-1">**King Star**</strong></span>
