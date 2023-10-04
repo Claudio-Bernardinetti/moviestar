@@ -157,10 +157,12 @@ export default {
      <!-- End Movie Playlist -->
      <div class="coming_soon">
         <div class="text">
-            <h6>Welcome To Our Movie Site</h6>
-            <h2>OUR SPECIAL <span>MOVIES</span></h2>
-            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit cupiditate sequi voluptate aliquam dolor, placeat architecto accusamus, minima maiores quidem expedita. Impedit natus aperiam asperiores dolores at eaque.</p>
-            <button>Read More</button>
+            <h6><span>COMING SOON MOVIE</span></h6>
+            <h1>MAX STILL</h1>
+            <div class="text_opacity text-center px-2">
+               <h6>JON PLAYER<span> & </span>EMILY ROSE</h6> 
+               <p>THE COUNTDOWN IS FINISHED!</p>
+            </div>
         </div>
      </div>
      <!-- End Coming Soon -->
@@ -272,9 +274,9 @@ export default {
             span {
                 color: $Cinema_primary;
             }
-            button {
-                background-color: $Cinema_primary;
-                border-radius: 15px;
+            .text_opacity {
+                background-color: rgba(29, 27, 27, 0.692);
+                padding-top: 0.5rem;
             }
         }
     }
