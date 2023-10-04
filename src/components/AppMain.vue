@@ -63,15 +63,106 @@ export default {
         <!-- End photos -->
     </div>
      <!-- End New Movie -->
-     <div class="movie_playlist d-flex border-bottom border-black">
-        <div class="line"></div>
-        <div class="text px-2">
-            <h4>Movie Playlist</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, hic doloremque!</p>
+     <div class="movie_playlist_container">
+        <div class="movie_playlist d-flex border-bottom border-black">
+            <div class="line"></div>
+            <div class="text px-2">
+                <h4>Movie Playlist</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, hic doloremque!</p>
+            </div>
+        </div>
+        <div class="you_tube_container d-flex">
+            <div class="you_tube d-flex flex-column justify-content-between">
+                <div class="d-flex">
+                    <img class="rounded-circle p-1" src="../../src/assets/img/channels4_profile.jpg" width="50px" height="50px" alt="">
+                    <div>Yeh Saali Aashiqui | Official Trailer | Vardhan Puri, Shivaleek...</div>
+                    <div>
+                        <img src="../../src/assets/img/image (clock).svg" alt="">
+                        <div>Guarda piu'...</div>
+                    </div>
+                    <div class="px-1">
+                        <img src="../../src/assets/img/image (share).svg" alt="">
+                        <div>Condividi</div>
+                    </div>
+                </div>
+                <div class="d-flex  my-2 p-1 bg-gradient">
+                    <div>Guida su </div>
+                    <img class="p-1" src="../../src/assets/img/image (11).svg" width="5%" alt="">
+                    <div>You Tube</div>
+                </div>
+            </div>
+            <div class="new_movie mx-4">
+                <div class="border-bottom border-black p-2">
+                    <div>New Movie</div>
+                    <div>Playng 24</div>
+                </div>
+                <div class="new_movie_overflow">
+                    <div class="d-flex p-2">
+                        <div>
+                        <img src="../../src/assets/img/2-100x100.jpg" alt="">
+                        </div>
+                        <div class="px-2">
+                            <h5>Quisque auctor Movie In Strack</h5>
+                            <div>947 Views</div>
+                            <div class="d-flex justify-content-between">
+                                <div>February 12,2016</div>
+                                <div>2.30.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-2">
+                        <div>
+                        <img src="../../src/assets/img/3-100x100.jpg" alt="">
+                        </div>
+                        <div class="px-2">
+                            <h5>Quisque auctor Movie In Strack</h5>
+                            <div>947 Views</div>
+                            <div class="d-flex justify-content-between">
+                                <div>February 12,2016</div>
+                                <div>2.30.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-2">
+                        <div>
+                        <img src="../../src/assets/img/5-100x100.jpg" alt="">
+                        </div>
+                        <div class="px-2">
+                            <h5>Quisque auctor Movie In Strack</h5>
+                            <div>947 Views</div>
+                            <div class="d-flex justify-content-between">
+                                <div>February 12,2016</div>
+                                <div>2.30.00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex p-2">
+                        <div>
+                        <img src="../../src/assets/img/6-100x100.jpg" alt="">
+                        </div>
+                        <div class="px-2">
+                            <h5>Quisque auctor Movie In Strack</h5>
+                            <div>947 Views</div>
+                            <div class="d-flex justify-content-between">
+                                <div>February 12,2016</div>
+                                <div>2.30.00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+     <!-- End Movie Playlist -->
+     <div class="coming_soon">
+        <div class="text">
+            <h6>Welcome To Our Movie Site</h6>
+            <h2>OUR SPECIAL <span>MOVIES</span></h2>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit cupiditate sequi voluptate aliquam dolor, placeat architecto accusamus, minima maiores quidem expedita. Impedit natus aperiam asperiores dolores at eaque.</p>
+            <button>Read More</button>
         </div>
      </div>
-     <!-- End Movie Playlist -->
-     <div class="coming_soon"></div>
      <!-- End Coming Soon -->
      <div class="new_movie_navbar d-flex border-bottom border-black">
         <div class="line"></div>
@@ -99,7 +190,7 @@ export default {
 @use '../assets/scss/partials/variables' as *;
  #app_main{
     height: 1000px;
-    .new_movie, .movie_playlist, .new_movie_navbar, .latest_news{
+    .new_movie_container, .movie_playlist, .new_movie_navbar, .latest_news{
             margin-left: 16%;
             margin-right: 16%;
             margin-top: 4rem;
@@ -117,6 +208,7 @@ export default {
         }
     }
     .new_movie_container{
+        .new_movie {margin-bottom: 4rem;}
         .photos{
             .left_pic, .right_pic {
                 width: 300px;
@@ -143,6 +235,46 @@ export default {
             }
             .right_pic{
                background-image: url(../../src/assets/img/5.jpg); 
+            }
+        }
+    }
+    .movie_playlist_container{
+        .you_tube {
+           width: 580px;
+           height: 400px;
+           background-color: $Cinema_dark;
+           color: $Cinema_light;
+           margin-left: 16%;
+        }
+        .new_movie {
+            background-color: rgb(46, 45, 45);
+            color: $Cinema_light;
+
+            .new_movie_overflow{
+            overflow: auto;
+            height: 330px;
+            }
+        }
+    }
+    .coming_soon{
+        background-image: url(../../src/assets/img/coming-bg.jpg);
+        width: 100%;
+        height: 490px;
+        margin-top: 4rem;
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $Cinema_light;
+            padding-top: 6rem;
+            padding-left: 40%;
+            padding-right: 30%;
+            span {
+                color: $Cinema_primary;
+            }
+            button {
+                background-color: $Cinema_primary;
+                border-radius: 15px;
             }
         }
     }
