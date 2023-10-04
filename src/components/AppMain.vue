@@ -73,7 +73,8 @@ export default {
         </div>
         <div class="you_tube_container d-flex">
             <div class="you_tube d-flex flex-column justify-content-between">
-                <div class="d-flex">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BP0k4SdquG0?si=pAmDOU3qydbb31sT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- <div class="d-flex">
                     <img class="rounded-circle p-1" src="../../src/assets/img/channels4_profile.jpg" width="50px" height="50px" alt="">
                     <div>Yeh Saali Aashiqui | Official Trailer | Vardhan Puri, Shivaleek...</div>
                     <div>
@@ -89,7 +90,7 @@ export default {
                     <div>Guida su </div>
                     <img class="p-1" src="../../src/assets/img/image (11).svg" width="5%" alt="">
                     <div>You Tube</div>
-                </div>
+                </div> -->
             </div>
             <div class="new_movie mx-4">
                 <div class="border-bottom border-black p-2">
@@ -166,11 +167,28 @@ export default {
         </div>
      </div>
      <!-- End Coming Soon -->
-     <div class="new_movie_navbar d-flex border-bottom border-black">
-        <div class="line"></div>
-        <div class="text px-2">
-            <h4>New Movie</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, hic doloremque!</p>
+     <div class="new_movie_navbar_container">
+        <div class="new_movie_navbar d-flex border-bottom border-black">
+            <div class="line"></div>
+            <div class="text px-2">
+                <h4>New Movie</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, hic doloremque!</p>
+            </div>
+        </div>
+        <div class="nav_bar d-flex">
+            <div>All</div>
+            <div>Coming soon</div>
+            <div>Latest Movie</div>
+            <div>Top Rating</div>
+            <div>TV Series</div>
+        </div>
+        <div class="img">
+            <div class="hurry"></div>
+            <div class="animate"></div>
+            <div class="blue"></div>
+            <div class="halla"></div>
+            <div class="quisque"></div>
+            <div class="new"></div>
         </div>
      </div>
      <!-- End New Movie Navbar -->
@@ -242,10 +260,10 @@ export default {
     }
     .movie_playlist_container{
         .you_tube {
-           width: 580px;
-           height: 400px;
-           background-color: $Cinema_dark;
-           color: $Cinema_light;
+        //    width: 580px;
+        //    height: 400px;
+        //    background-color: $Cinema_dark;
+        //    color: $Cinema_light;
            margin-left: 16%;
         }
         .new_movie {
@@ -254,12 +272,13 @@ export default {
 
             .new_movie_overflow{
             overflow: auto;
-            height: 330px;
+            height: 250px;
             }
         }
     }
     .coming_soon{
         background-image: url(../../src/assets/img/coming-bg.jpg);
+        background-position: left;
         width: 100%;
         height: 490px;
         margin-top: 4rem;
@@ -277,6 +296,28 @@ export default {
             .text_opacity {
                 background-color: rgba(29, 27, 27, 0.692);
                 padding-top: 0.5rem;
+            }
+        }
+    }
+    .new_movie_navbar_container {
+        
+        .nav_bar {
+            color: $Cinema_light;
+            margin-left: 16%;
+            
+            div {
+                padding-right: 2rem;
+                cursor: pointer;
+                &:hover {
+                color: $Cinema_primary;
+            }
+            }
+        }
+        .img {
+            .hurry {
+                background-image: url(../../src/assets/img/coming-bg.jpg);
+                width: 200px;
+                height: 300px;
             }
         }
     }
