@@ -352,7 +352,16 @@ export default {
         </div>
      </div>
      <!-- End Latest News -->
-     <div class="subscribe"></div>
+     <div class="subscribe  justify-content-center">
+        <div class="d-flex">
+        <input class="search form-control me-2" type="search" placeholder="First Name" aria-label="Search">
+        <input class="search form-control me-2" type="search" placeholder="Last Name" aria-label="Search">
+        <input class="search form-control me-2" type="search" placeholder="Email Address" aria-label="Search">
+        </div>
+        <div class="d-flex justify-content-center">
+        <button class="btn" type="submit">Subscribe</button>
+        </div>
+     </div>
      <!-- End Subscribe -->
   </div>
   
@@ -361,7 +370,7 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
  #app_main{
-    height: 1000px;
+    
     .new_movie_container, .movie_playlist, .new_movie_navbar, .latest_news{
             margin-left: 16%;
             margin-right: 16%;
@@ -555,6 +564,30 @@ export default {
             height: 240px;
             color: $Cinema_light;
             margin-left: 1rem;
+        }
+    }
+    .subscribe {
+        background-image: url(../../src/assets/img/form-bg-1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 67%;
+        height: 500px;
+        margin-top: 4rem;
+        margin-left: 16%;
+        padding: 1rem;
+        input {
+            margin-top: 4rem;
+            height: 50px;
+        }
+        button {
+            background-color: $Cinema_dark;
+            color: $Cinema_light;
+            height: 50px;
+            margin-top: 1rem;
+             &:hover {
+                background-color: $Cinema_light;
+                color: $Cinema_dark;
+             }
         }
     }
  }
