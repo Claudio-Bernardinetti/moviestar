@@ -146,6 +146,9 @@ export default {
             button {
                 background-color: $Cinema_primary;
                 border-radius: 15px;
+                 &:hover {
+                background-color: $Cinema_light;
+            }
             }
         }
     }

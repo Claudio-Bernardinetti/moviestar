@@ -185,11 +185,19 @@ export default {
         <!-- End Navbar -->
         <div class="img d-flex flex-wrap justify-content-center">
             <div class="hurry d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div class="d-flex justify-content-start position-relative">
+                    <div class="hover_green col-4 mt-3 p-2 rounded-end-pill">20.30.00</div>
+                    <div class="star mt-3 p-2"><span> &#9733; </span> 0/10</div> 
+                </div>
                 <div>
                     <div class="p-2">
+                        <div class="hover d-flex justify-content-center mb-2">
+                          <img class="hover"  src="../../src/assets/img/image (play).svg" width="20%" alt="">
+                        </div>
                         <h5>Hurry Animate Blue Strack New Movie</h5>
                         <h6>Category: Top Rating</h6>
+                        <h6 class="hover">Release: February 12, 2016</h6>
+                        <h6 class="hover">Genres: Drama, Action Release</h6>
                     </div>
                     <div class="d-flex justify-content-between py-3">
                         <div class="bg-black p-2 rounded-end-pill">Details</div>
@@ -199,11 +207,19 @@ export default {
             </div>
             <!-- End Hurri pic -->
             <div class="animate d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div class="d-flex justify-content-start position-relative">
+                    <div class="hover_green col-4 mt-3 p-2 rounded-end-pill">20.30.00</div>
+                    <div class="star mt-3 p-2"><span> &#9733; </span> 0/10</div> 
+                </div>
                 <div>
                     <div class="p-2">
+                        <div class="hover d-flex justify-content-center mb-2">
+                          <img class="hover"  src="../../src/assets/img/image (play).svg" width="20%" alt="">
+                        </div>
                         <h5>Animate Blue Strack New Movie</h5>
                         <h6>Category: Latest Movie</h6>
+                        <h6 class="hover">Release: February 12, 2016</h6>
+                        <h6 class="hover">Genres: Drama, Action Release</h6>
                     </div>
                     <div class="d-flex justify-content-between py-3">
                         <div class="bg-black p-2 rounded-end-pill">Details</div>
@@ -213,11 +229,19 @@ export default {
             </div>
             <!-- End Animat pic -->
             <div class="blue d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div class="d-flex justify-content-start position-relative">
+                    <div class="hover_green col-4 mt-3 p-2 rounded-end-pill">20.30.00</div>
+                    <div class="star mt-3 p-2"><span> &#9733; </span> 0/10</div> 
+                </div>
                 <div>
                     <div class="p-2">
+                        <div class="hover d-flex justify-content-center mb-2">
+                          <img class="hover"  src="../../src/assets/img/image (play).svg" width="20%" alt="">
+                        </div>
                         <h5>Blue Strack New Animate Movie</h5>
                         <h6>Category: Coming Soon</h6>
+                        <h6 class="hover">Release: February 12, 2016</h6>
+                        <h6 class="hover">Genres: Drama, Action Release</h6>
                     </div>
                     <div class="d-flex justify-content-between py-3">
                         <div class="bg-black p-2 rounded-end-pill">Details</div>
@@ -227,11 +251,19 @@ export default {
             </div>
             <!-- End Blue pic -->
             <div class="nulla d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div class="d-flex justify-content-start position-relative">
+                    <div class="hover_green col-4 mt-3 p-2 rounded-end-pill">20.30.00</div>
+                    <div class="star mt-3 p-2"><span> &#9733; </span> 0/10</div> 
+                </div>
                 <div>
                     <div class="p-2">
+                        <div class="hover d-flex justify-content-center mb-2">
+                          <img class="hover"  src="../../src/assets/img/image (play).svg" width="20%" alt="">
+                        </div>
                         <h5>Nulla Strack New Animate Movie</h5>
                         <h6>Category: TV Series</h6>
+                        <h6 class="hover">Release: February 12, 2016</h6>
+                        <h6 class="hover">Genres: Drama, Action Release</h6>
                     </div>
                     <div class="d-flex justify-content-between py-3">
                         <div class="bg-black p-2 rounded-end-pill">Details</div>
@@ -241,11 +273,19 @@ export default {
             </div>
             <!-- End Nulla pic -->
             <div class="quisque d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 1/10</div>
+                <div class="d-flex justify-content-start position-relative">
+                    <div class="hover_green col-4 mt-3 p-2 rounded-end-pill">20.30.00</div>
+                    <div class="star mt-3 p-2"><span> &#9733; </span> 1/10</div> 
+                </div>
                 <div>
                     <div class="p-2">
+                        <div class="hover d-flex justify-content-center mb-2">
+                          <img class="hover"  src="../../src/assets/img/image (play).svg" width="20%" alt="">
+                        </div>
                         <h5>Quisque In Strack New Movie</h5>
                         <h6>Category: Top Rating</h6>
+                        <h6 class="hover">Release: February 12, 2016</h6>
+                        <h6 class="hover">Genres: Drama, Action Release</h6>
                     </div>
                     <div class="d-flex justify-content-between py-3">
                         <div class="bg-black p-2 rounded-end-pill">Details</div>
@@ -255,11 +295,19 @@ export default {
             </div>
             <!-- End Quisque pic -->
             <div class="new d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-end p-2"><span>&#9733; </span> 0/10</div>
+                <div class="d-flex justify-content-start position-relative">
+                    <div class="hover_green col-4 mt-3 p-2 rounded-end-pill">20.30.00</div>
+                    <div class="star mt-3 p-2"><span> &#9733; </span> 0/10</div> 
+                </div>
                 <div>
                     <div class="p-2">
+                        <div class="hover d-flex justify-content-center mb-2">
+                          <img class="hover"  src="../../src/assets/img/image (play).svg" width="20%" alt="">
+                        </div>
                         <h5>New Movie Quisque in Strack</h5>
                         <h6>Category: Latest Movie</h6>
+                        <h6 class="hover">Release: February 12, 2016</h6>
+                        <h6 class="hover">Genres: Drama, Action Release</h6>
                     </div>
                     <div class="d-flex justify-content-between py-3">
                         <div class="bg-black p-2 rounded-end-pill">Details</div>
@@ -487,32 +535,78 @@ export default {
                 span{
                     color: $Cinema_primary;
                 }
+                .star {
+                    position: absolute;
+                    right: 0;
+                }
+                .hover_green {
+                    background-color: $Cinema_primary;
+                    display: none;
+                }
+                .hover {
+                    display: none;
+                }
+                &:hover .hover,
+                &:hover .hover_green {
+                    display: block;
+                }
                 
-                
+            
             }
             .hurry {
                 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/1-234x300.jpg);
                 background-size: cover;
-            }
+                &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/1-234x300.jpg);
+                    background-size: cover;
+                    }
+                }
+          
             .animate {
                 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/5-229x300.jpg);
                 background-size: cover;
+                &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/5-229x300.jpg);
+                    background-size: cover;
+                    }
             }
             .blue {
                 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/3-229x300.jpg);
                 background-size: cover;
+                &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/3-229x300.jpg);
+                    background-size: cover;
+                    }
             }
             .nulla {
                 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/4-229x300.jpg);
                 background-size: cover;
+                &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/4-229x300.jpg);
+                    background-size: cover;
+                    }
             }
             .quisque {
                 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/3-222x300.jpg);
                 background-size: cover;
+                &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/3-222x300.jpg);
+                    background-size: cover;
+                    }
             } 
             .new {
                 background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/2-216x300.jpg);
                 background-size: cover;
+                &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/2-216x300.jpg);
+                    background-size: cover;
+                    }
             }  
         }
     }
