@@ -71,9 +71,9 @@ export default {
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, hic doloremque!</p>
             </div>
         </div>
-        <div class="you_tube_container d-flex">
-            <div class="you_tube d-flex flex-column justify-content-between">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BP0k4SdquG0?si=pAmDOU3qydbb31sT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="you_tube_container d-flex flex-wrap">
+            <div class="you_tube col-5  justify-content-between">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BP0k4SdquG0?si=pAmDOU3qydbb31sT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <!-- <div class="d-flex">
                     <img class="rounded-circle p-1" src="../../src/assets/img/channels4_profile.jpg" width="50px" height="50px" alt="">
                     <div>Yeh Saali Aashiqui | Official Trailer | Vardhan Puri, Shivaleek...</div>
@@ -328,79 +328,86 @@ export default {
             </div>
         </div>
         <!-- Start images -->
-        <div class="last_news_img_container d-flex">
-            <div class="actor d-flex flex-column justify-content-between">
-                <div class="d-flex justify-content-end p-2"></div>
-                <div>
-                    <div class="p-2">
-                        <h5>Actor The Concept Movie High Concept Theory See The Post</h5>
-                    </div>
-                    <div class="d-flex justify-content-between py-3">
-                        <div class="bg-black p-2 rounded-end-pill">Details</div>
-                        <div class=" p-2 rounded-start-pill">moviestar 0 Comments Share</div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Actor img -->
-            <div class="four_squares d-flex flex-wrap">
-                <div class="consequat d-flex flex-column justify-content-between">
-                    <div class="d-flex justify-content-end p-2"></div>
+        <div class="last_news_img_container container">
+            <div class="row">
+                <div class="actor p-0 d-flex col-12 col-lg-6  flex-column justify-content-between">
+                    <div class="d-flex justify-content-end "></div>
                     <div>
                         <div class="p-2">
-                            <h5>Consequat Nam Lectus Nibh Aucibus It Has Turpis</h5>
+                            <h5>Actor The Concept Movie High Concept Theory See The Post</h5>
                         </div>
                         <div class="d-flex justify-content-between py-3">
                             <div class="bg-black p-2 rounded-end-pill">Details</div>
-                            <div class=" p-2 rounded-start-pill">Share</div>
+                            <div class=" p-2 rounded-start-pill">moviestar 0 Comments Share</div>
                         </div>
                     </div>
                 </div>
-                <!-- End Consequat img -->
-                
-                <div class="nam d-flex flex-column justify-content-between">
-                    <div class="d-flex justify-content-end p-2"></div>
-                    <div>
-                        <div class="p-2">
-                            <h5>Nam Lectus Nibh Consequat Aucibus Turpis It Has</h5>
+                <!-- End Actor img -->
+                <div class="four_squares col-12 col-lg-6 ">
+                    <div class="row justify-content-center">
+                        <div class="consequat p-0 d-flex col-12 col-md-6 col-lg-6 flex-column  justify-content-between">
+                            <div class="d-flex justify-content-end "></div>
+                            <div>
+                                
+                                <div class="p-2">
+                                    <h5>Consequat Nam Lectus Nibh Aucibus It Has Turpis</h5>
+                                </div>
+                                <div class="d-flex justify-content-between py-3">
+                                    <div class="bg-black p-2 rounded-end-pill">Details</div>
+                                    <div class=" p-2 rounded-start-pill">Share</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex justify-content-between py-3">
-                            <div class="bg-black p-2 rounded-end-pill">Details</div>
-                            <div class=" p-2 rounded-start-pill">Share</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Nam img -->
-                <div class="bring d-flex flex-column justify-content-between">
-                    <div class="d-flex justify-content-end p-2"></div>
-                    <div>
-                        <div class="p-2">
-                            <h5>Bring Me The Head Of Alfredo Garcia Best Movie In</h5>
-                        </div>
-                        <div class="d-flex justify-content-between py-3">
-                            <div class="bg-black p-2 rounded-end-pill">Details</div>
-                            <div class=" p-2 rounded-start-pill">Share</div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Bring img -->
-                <div class="pump d-flex flex-column justify-content-between">
-                    <div class="d-flex justify-content-end p-2"></div>
-                    <div>
-                        <div class="p-2">
-                            <h5>Pump Action Interaction English Action Movie (2020)</h5>
-                        </div>
-                        <div class="d-flex justify-content-between py-3">
-                            <div class="bg-black p-2 rounded-end-pill">Details</div>
-                            <div class=" p-2 rounded-start-pill">Share</div>
+                        <!-- End Consequat img -->
+                        
+                        <div class="nam p-0 d-flex col-12 col-md-6 col-lg-6 flex-column justify-content-between">
+                            <div class="d-flex justify-content-end p-2"></div>
+                            <div>
+                                <div class="p-2">
+                                    <h5>Nam Lectus Nibh Consequat Aucibus Turpis It Has</h5>
+                                </div>
+                                <div class="d-flex justify-content-between py-3">
+                                    <div class="bg-black p-2 rounded-end-pill">Details</div>
+                                    <div class=" p-2 rounded-start-pill">Share</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                        <!-- End Nam img -->
+                    <div class="row justify-content-center">
+                        <div class="bring p-0 col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-between">
+                            <div class="d-flex justify-content-end p-2"></div>
+                            <div>
+                                <div class="p-2">
+                                    <h5>Bring Me The Head Of Alfredo Garcia Best Movie In</h5>
+                                </div>
+                                <div class="d-flex justify-content-between py-3">
+                                    <div class="bg-black p-2 rounded-end-pill">Details</div>
+                                    <div class=" p-2 rounded-start-pill">Share</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Bring img -->
+                        <div class="pump p-0 col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-between">
+                            <div class="d-flex justify-content-end p-2"></div>
+                            <div>
+                                <div class="p-2">
+                                    <h5>Pump Action Interaction English Action Movie (2020)</h5>
+                                </div>
+                                <div class="d-flex justify-content-between py-3">
+                                    <div class="bg-black p-2 rounded-end-pill">Details</div>
+                                    <div class=" p-2 rounded-start-pill">Share</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Pump img -->
                 </div>
-                <!-- End Pump img -->
-            </div>
+            </div>    
         </div>
      </div>
      <!-- End Latest News -->
-     <div class="subscribe  justify-content-center">
+     <div class="subscribe  justify-content-center flex-wrap">
         <div class="d-flex">
         <input class="search form-control me-2" type="search" placeholder="First Name" aria-label="Search">
         <input class="search form-control me-2" type="search" placeholder="Last Name" aria-label="Search">
@@ -419,12 +426,12 @@ export default {
 @use '../assets/scss/partials/variables' as *;
  #app_main{
     
-    .new_movie_container, .movie_playlist, .new_movie_navbar, .latest_news{
-            margin-left: 16%;
-            margin-right: 16%;
-            margin-top: 4rem;
-            margin-bottom: 4rem;
-            padding-bottom: 0rem;
+    .new_movie_container, .movie_playlist_container, .new_movie_navbar_container, .latest_news_container{
+           padding-left: 16%;
+           padding-right: 16%;
+           margin-top: 4rem;
+           margin-bottom: 4rem;
+           padding-bottom: 0rem;
             
             
         .line{
@@ -441,7 +448,7 @@ export default {
         .photos{
             .left_pic, .right_pic {
                 width: 300px;
-                height: 400px;
+                height: 350px;
                 color: $Cinema_light;
                 border-radius: 15px;
                 filter: brightness(50%);
@@ -455,7 +462,7 @@ export default {
             .midle_pic{
                 background-image: url(../../src/assets/img/2.jpg);
                 width: 350px;
-                height: 500px;
+                height: 450px;
                 color: $Cinema_light;
                 border-radius: 15px;  
                 span{
@@ -469,15 +476,13 @@ export default {
     }
     .movie_playlist_container{
         .you_tube {
-        //    width: 580px;
-        //    height: 400px;
-        //    background-color: $Cinema_dark;
-        //    color: $Cinema_light;
-           margin-left: 16%;
+           padding-top: 4rem;
+           width: 62%;
         }
         .new_movie {
             background-color: rgb(46, 45, 45);
             color: $Cinema_light;
+            margin-top: 4rem;
 
             .new_movie_overflow{
             overflow: auto;
@@ -489,14 +494,16 @@ export default {
         background-image: url(../../src/assets/img/coming-bg.jpg);
         background-position: left;
         width: 100%;
-        height: 490px;
+        height: 100%;
         margin-top: 4rem;
+        
         .text {
             display: flex;
             flex-direction: column;
             align-items: center;
             color: $Cinema_light;
             padding-top: 6rem;
+            padding-bottom: 8rem;
             padding-left: 40%;
             padding-right: 30%;
             span {
@@ -509,11 +516,12 @@ export default {
         }
     }
     .new_movie_navbar_container {
+        flex-wrap: wrap;
         
         .nav_bar {
             color: $Cinema_light;
-            margin-left: 16%;
-            
+            padding-top: 2rem;
+
             div {
                 padding-right: 2rem;
                 cursor: pointer;
@@ -523,8 +531,7 @@ export default {
             }
         }
         .img {
-            margin-left: 13%;
-            margin-right: 13%;
+            
             
             .hurry, .animate, .blue, .nulla, .quisque, .new {
                 width: 300px;
@@ -532,6 +539,7 @@ export default {
                 margin: 2rem;
                 color: $Cinema_light;
                 background-size: contain;
+                cursor: pointer;
                 span{
                     color: $Cinema_primary;
                 }
@@ -549,6 +557,7 @@ export default {
                 &:hover .hover,
                 &:hover .hover_green {
                     display: block;
+                    
                 }
                 
             
@@ -611,74 +620,96 @@ export default {
         }
     }
     .latest_news_container {
+        .latest_news {
+            margin-bottom: 4rem;
+        }
         .four_squares {
-            width: 550px;
-            height: 500px;
+            width:50%;
+            
+            
         }
         
         .actor {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog-570x570.jpg);
-            width: 500px;
-            height: 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 46%;
+            aspect-ratio: 1/1;
             color: $Cinema_light;
-            margin-left: 16%;
-            
+            margin-bottom: 1rem;
+            &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/blog-570x570.jpg);
+                    background-size: cover;
+                    }
+        }
+
+        .consequat, .nam, .bring, .pump {
+            width: 46%;
+            aspect-ratio: 1/1;
+            color: $Cinema_light;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+           
         }
         .consequat {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog2-150x150.jpg);
             background-size: cover;
-            width: 240px;
-            height: 240px;
-            color: $Cinema_light;
-            margin-left: 1rem;
-            margin-bottom: 1rem;
+            &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/blog2-150x150.jpg);
+                    background-size: cover;
+                    }
             
         }
         .nam {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog3-150x150.jpg);
             background-size: cover;
-            width: 240px;
-            height: 240px;
-            color: $Cinema_light;
-            margin-left: 1rem;
-            margin-bottom: 1rem;
-            
+            &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/blog3-150x150.jpg);
+                    background-size: cover;
+                    }
         }
         .bring {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog4-150x150.jpg);
             background-size: cover;
-            width: 240px;
-            height: 240px;
-            color: $Cinema_light;
-            margin-left: 1rem;
+            &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/blog4-150x150.jpg);
+                    background-size: cover;
+                    }
         }
         .pump {
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/assets/img/blog5-150x150.jpg);
             background-size: cover;
-            width: 240px;
-            height: 240px;
-            color: $Cinema_light;
-            margin-left: 1rem;
+            &:hover  {
+                    border: 16px solid $Cinema_dark;
+                    background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/blog5-150x150.jpg);
+                    background-size: cover;
+                    }
         }
     }
     .subscribe {
         background-image: url(../../src/assets/img/form-bg-1.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         width: 67%;
-        height: 500px;
+        height: 100%;
         margin-top: 4rem;
+        margin-bottom: 4rem;
         margin-left: 16%;
         padding: 1rem;
         input {
-            margin-top: 4rem;
+            margin-top: 8rem;
             height: 50px;
         }
         button {
             background-color: $Cinema_dark;
             color: $Cinema_light;
             height: 50px;
-            margin-top: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 6rem;
              &:hover {
                 background-color: $Cinema_light;
                 color: $Cinema_dark;

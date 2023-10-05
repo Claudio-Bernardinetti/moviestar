@@ -8,13 +8,13 @@ export default {
 
 <template>
   <footer id="app_footer">
-      <div class="footer_top">
-        <div class="lists d-flex">
-          <div class="about col-3 p-3">
+      <div class="footer_top d-flex flex-wrap ">
+        <div class="lists d-flex flex-wrap">
+          <div class="about col-12 col-lg-6 col-xl-3  p-3">
             <h5>About Us</h5>
             <div class="line"></div>
               <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laborum iure temporibus repellat id ipsum, deleniti debitis cum quis velit dolorum ipsam iusto magnam quo quisquam!</p>
-              <div class="icons d-flex">
+              <div class="icons d-flex flex-wrap">
                 <div class="facebook rounded-circle">
                   <img src="../../src/assets/img/image (f-w).svg" alt="">
                 </div>
@@ -33,7 +33,7 @@ export default {
               </div>
           </div>
           <!-- End About list -->
-          <div class="movie col-2 p-3">
+          <div class="movie col-12 col-lg-6 col-xl-3 p-3">
             <h5>Movie Category</h5>
             <div class="line"></div>
             <p class="pt-4">English New Movie</p>
@@ -44,7 +44,7 @@ export default {
             <p>Animation New Movie</p>
           </div>
           <!-- End Movie list -->
-          <div class="information col-2 p-3">
+          <div class="information col-12 col-lg-6 col-xl-3 p-3">
             <h5>Information</h5>
             <div class="line"></div>
             <p class="pt-4">Youtube Video Post</p>
@@ -55,7 +55,7 @@ export default {
             <p>Video New Video</p>
           </div>
           <!-- End Information list -->
-          <div class="recent col-3 p-3">
+          <div class="recent col-12 col-lg-6 col-xl-3 p-3">
             <h5>Recent Posts</h5>
             <div class="posts">
               <div class="top mb-3 d-flex">
@@ -109,12 +109,15 @@ export default {
     color: $Cinema_light_dark;
   .footer_top {
     background: linear-gradient(rgba(23, 32, 43, 0.9), rgba(23, 32, 43, 0.9)), url(../../src/assets/img/ft-bg.jpg);
-    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: 100%;
     width: 100%;
-    margin-top: -7em;
+    
     .lists {
       color: $Cinema_light;
       margin-left: 15%;
+      margin-right: 15%;
       padding-top: 2rem;
       .icons {
         .facebook, .twitter, .linkedin, .instagram, .pinterest {
@@ -124,6 +127,7 @@ export default {
           padding-right: 14px;
           padding-top: 5px;
           margin-right: 0.5rem;
+          margin-bottom: 0.5rem;
           cursor: pointer; 
           &:hover {
             background-color: transparent;

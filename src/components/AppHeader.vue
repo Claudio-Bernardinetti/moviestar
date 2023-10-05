@@ -131,13 +131,14 @@ export default {
     .jumbotron{
         background-image: url(../../src/assets/img/slider-1536x520.jpg);
         width: 100%;
-        height: 520px;
+        height: 100%;
         .text {
             display: flex;
             flex-direction: column;
             align-items: center;
             color: $Cinema_light;
             padding-top: 6rem;
+            padding-bottom: 6rem;
             padding-left: 40%;
             padding-right: 30%;
             span {
