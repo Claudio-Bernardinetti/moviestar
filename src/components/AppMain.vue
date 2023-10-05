@@ -622,10 +622,11 @@ export default {
     .latest_news_container {
         .latest_news {
             margin-bottom: 4rem;
+            
         }
         .four_squares {
             width:50%;
-            
+            cursor: pointer;
             
         }
         
@@ -637,10 +638,12 @@ export default {
             aspect-ratio: 1/1;
             color: $Cinema_light;
             margin-bottom: 1rem;
+            cursor: pointer;
             &:hover  {
                     border: 16px solid $Cinema_dark;
                     background: linear-gradient(rgba(0, 128, 0, 0.8), rgba(0, 128, 0, 0)), url(../../src/assets/img/blog-570x570.jpg);
                     background-size: cover;
+                    
                     }
         }
 
