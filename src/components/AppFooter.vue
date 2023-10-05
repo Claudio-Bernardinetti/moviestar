@@ -85,7 +85,19 @@ export default {
         </div>
       </div>
       <!-- End Footer top -->
-      <div class="footer_bottom"></div>
+      <div class="footer_bottom">
+        <div class="d-flex justify-content-around pt-3">
+          <div class="left d-flex">
+            <p>Term And Conditions</p>
+            <p>Policy</p>
+            <p>About</p>
+          </div>
+          <div class="right d-flex">
+            <img src="" alt="">
+            <p>&#169; 2020 <span>@Themepul</span> All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
   </footer>
   
 </template>
@@ -146,6 +158,19 @@ export default {
     .recent {
       img {
         margin-right: 0.5rem;
+      }
+    }
+  }
+  .footer_bottom {
+    color: $Cinema_light;
+    .left {
+      p {
+        padding-right: 2rem;
+      }
+    }
+    .right {
+      span {
+        color: $Cinema_primary;
       }
     }
   }
