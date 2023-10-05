@@ -518,7 +518,8 @@ export default {
     }
     .latest_news_container {
         .four_squares {
-            width: 600px;
+            width: 550px;
+            height: 500px;
         }
         
         .actor {
